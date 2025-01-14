@@ -9,6 +9,6 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: "3.13"
-      - run: python -m pip install flask
+      #- run: python -m pip install flask
+      - run: python -m pip install -r requirements.txt
       - run: python test.py
-      #pip install -r requirements.txt
